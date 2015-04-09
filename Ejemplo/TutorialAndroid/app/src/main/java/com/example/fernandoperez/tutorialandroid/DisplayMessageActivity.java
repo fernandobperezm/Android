@@ -24,6 +24,9 @@ public class DisplayMessageActivity extends ActionBarActivity {
 
         //Ahora ponemos que haga eso como principal.
         setContentView(textView);
+        
+        //Damos soporte a la actionBar
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
     }
 
     @Override
