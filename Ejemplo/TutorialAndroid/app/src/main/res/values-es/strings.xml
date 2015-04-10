@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">TutorialAndroid</string>
+    <string name="edit_message">Escriba algo menor</string>
+    <string name="button_send">Mandar</string>
+    <string name="action_settings">Ajustes</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_activity_display_message">MyMessage</string>
+    <string name="action_search">Buscar</string>
+    <string name="hello_world">Pasó llave!</string>
+</resources>
