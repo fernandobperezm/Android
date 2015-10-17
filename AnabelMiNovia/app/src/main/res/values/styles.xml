@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Aquí se define el tema de la aplicación. Se definen dos estilos, uno que será el tema de
+    la ventana, y otro específicamente de la Action Bar, el primero lleva al segundo con él.-->
+    <style name="CustomActionBarTheme"
+           parent="Theme.AppCompat.Light.DarkActionBar" >
+        <item name ="android:actionBarStyle">@style/MyActionBar</item>
+        <!-- Este tema está hecho pensado para usar el AppCompat, en caso de que no se quiera usar,
+        hay que revisar lo que dice el developers de Android, sección Styling the Action Bar. -->
+        <!--Aquí se le da soporte -->
+        <item name="actionBarStyle">@style/MyActionBar</item>
+    </style>
+
+    <!-- Aquí se define el estilo de la Action Bar. -->
+    <style name="MyActionBar"
+           parent="@style/Widget.AppCompat.Light.ActionBar.Solid.Inverse" >
+        <item name="android:background">@color/actionbar_background</item>
+
+        <!--Soporte a Android 2.1 o mayor.-->
+        <item name="background">@color/actionbar_background</item>
+
+    </style>
+
+</resources>

@@ -1,0 +1,16 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MyActivity">
+
+    <!-- Esto muestra el botón de Search en la ActionBar, aparece solo si hay espacio. -->
+    <item android:id="@+id/action_search"
+          android:icon="@drawable/ic_search_white_24dp"
+          android:title="@string/action_search"
+          app:showAsAction="ifRoom" />
+
+    <!-- Esto muestra el botón de Settings en la ActionBar, siempre debe estar presente. -->
+    <item android:id="@+id/action_settings"
+          android:title="@string/action_settings"
+          app:showAsAction="never" />
+</menu>
